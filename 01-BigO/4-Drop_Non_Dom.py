@@ -1,4 +1,4 @@
-def print_items(n): #O((n * n) + n = n^2 + n) -> O(n^2)
+def print_items(n): #O((n * n) + n = n^2 + n) -> O(n^2) -> squared
     for i in range(n): #O(n) -> linear(proportional)
         for j in range(n): #O(n) -> linear(proportional)
             print(i,j)
